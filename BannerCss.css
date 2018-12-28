@@ -24,10 +24,16 @@ body, html {
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-left: 65px;
   text-align: center; 
 }
 
+.plogo{
+  text-align: center;
+}
+.pstarlogo{
+  text-align: right;
+  
+}
 
 /* HEADER för logo*/
 
@@ -41,6 +47,7 @@ body, html {
 
 .centerh1 {
   display: block;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-left: 500px;
@@ -49,7 +56,7 @@ body, html {
 .flygplan {
 
   text-align: center;
-  max-width: 500px;
+  width: 100%;
   height: 100px;
 }
 
