@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* FOOTER för logo*/
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-left: 65px;
+  text-align: center; 
+}
+
+
+/* HEADER för logo*/
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.centerh1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 500px;
+}
+
+.flygplan {
+
+  text-align: center;
+  max-width: 500px;
+  height: 100px;
+}
+
+.body {
+  margin: 0;
+  padding: 0%
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(bg.png);
+  background-size: cover; 
+}
+
+.cloud{
+  padding: 600px;
+  width: 100%;
+  height: 100vh;
+  background: url(cloud.png);
+  background-size: cover;
+  animation: animate 60s linear infinite;
+}
+@keyframes animate {
+  from{
+    background-position: 0;
+  }
+  to{
+    background-position: -2120px;
+  }
+}
